@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/Bandwidth/ruby-sdk'
   s.license = 'MIT'
   s.add_dependency('logging', '~> 2.3')
-  s.add_dependency('faraday', '~> 1.0', '<= 1.9.3')
+  s.add_dependency('faraday', '~> 0.17.3')
   s.add_dependency('faraday_middleware', '~> 0.14.0')
   s.add_dependency('certifi', '~> 2018.1', '>= 2018.01.18')
   s.add_dependency('faraday-http-cache', '~> 2.2')
